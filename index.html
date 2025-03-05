@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="wrapper">
+        
+            <ul class="logoatas">
+                <li><img src="Logo Mushola.png" alt="..." /></li>
+            </ul>            
+            <div class="brand">
+                <div class="firstname">Media Informasi</div>
+                <div class="lastname">Mushola Nurul Aulad</div>
+            </div>
+            <ul class="navbar">
+                <li><a>Sekretariat :</a></li>
+                <li><a>Kp. Lembur RT 001/008</a></li>
+                <li><a>Desa Bojongkulur Kec. Gunung Putri Kab. Bogor 16969</a></li>
+                <li><a>Telp. 085719714700 email. nurulauladmediacenter@gmail.com</a></li>                
+            </ul>
+            <ul class="headerlogokanan">
+                <li><img src="headerlogo2.png" alt="..." /></li>
+            </ul>  
+        </nav>
+    <div class="row">
+        <div class="sidebar">
+            <iframe style="width: 100%; height: 65%; border: 1px solid #ddd;" scrolling="no" src="https://www.islamicfinder.org/prayer-widget/"> </iframe>
+            <script src="https://cdn.logwork.com/widget/clock.js"></script>
+<a href="https://logwork.com/current-time-in-jakarta-indonesia" class="clock-time" data-style="default-numeral" data-size="150">Current time in Jakarta, Indonesia</a>
+        </div>
+        <div class="content">
+            <div class="bungkusan">
+                <div class="bannersamping">
+                    <h2>MASIH TAHAP MAINTENANCE!</h2>
+                  </div>
+              </div>
+              <div class="w3-content w3-section" style="width: 65%;">
+                <img class="mySlides w3-animate-top" src="Kegiatan2.jpeg" style="width:100%">
+                <img class="mySlides w3-animate-bottom" src="Kegiatan3.jpeg" style="width:100%">
+                <img class="mySlides w3-animate-top" src="Kegiatan4.jpeg" style="width:100%">
+                <img class="mySlides w3-animate-bottom" src="Kegiatan5.jpeg" style="width:100%">
+              </div>
+              
+              <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 8000);    
+              }
+              </script>
+       
+        </div>
+    <div class="row">
+        <div class="navigation">
+            <ul class="waktusholat">
+                <table class="table">
+                    <tr class="judultable">
+                      <th>IMSAK</th>
+                      <th>SHUBUH</th>
+                      <th>DJUHUR</th>
+                      <th>ASHAR</th>
+                      <th>MAGHRIB</th>
+                      <th>ISYA</th>
+                    <tr class="watubawah">
+                      <td>04.15</td>
+                      <td>04.35</td>
+                      <td>12.15</td>
+                      <td>15.30</td>
+                      <td>18.18</td>
+                      <td>19.20</td>
+                     
+                    </tr>
+                  </table>         
+        </div>
+    <div class="row">
+        <div class="footer">
+            <img class="iconjam" src="iconjam2.png">
+            <div>
+                <marquee class="marquee">Selamat Datang di Mushola Nurul Aulad
+                    --[*]-- Handphone harap dimatikan
+                    --[*]-- Mohon untuk menjaga ketertiban dan kebersihan Mushola
+                    --[*]-- Marhaban Yaa Ramadhan Marhaban Yaa Syahru Siyam
+                    --[*]-- Selamat Menunaikan Ibadah Puasa
+                    --[*]-- Laporan Saldo Kas Mushola Rp. 300 T
+                </marquee>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

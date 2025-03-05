@@ -1,0 +1,160 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sidebar {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+    position: relative;
+    max-width: 350px;
+    height: 550px;
+}
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 52, 16);
+    position:relative;
+    width: 90%;
+    height: 550px;
+}
+.w3-content w3-section {
+    border: 1px solid #fff;
+    max-width: 50%;
+}
+.digital-clock {
+    border: #fff 1px;
+}
+.navigation {
+background-color: rgb(1, 67, 5);
+    width: 100%;
+    height: 180px;
+}
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: rgb(16, 16, 16);
+    width: 100%;
+    height: 65px;
+    font-size: 40px;
+    text-align:center;
+}
+.marquee {
+    color:crimson;
+    font-family: 'Trebuchet MS';
+    lighting-color: deeppink;
+}
+.iconjam {
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategray;
+}
+.wrapper {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    height: 17vh;
+    background-color: #04AA6D;
+}
+.firstname {
+color: rgb(228, 232, 5);
+font-weight: 700;
+font-size: 1.5em;
+}
+.lastname {
+    color: rgb(249, 249, 250);
+    font-weight: 700;
+    font-size: 1.7em;
+    font-family: verdana; 
+}
+.logoatas >li >img {
+    width: 120px;
+    height: 120px;
+}
+.wrapper >ul >li {
+    list-style-type:none;
+}
+.navbar {
+    font-size: 0.6em;
+    padding: 1%;
+    color: white;
+}
+.brand {
+    padding: 0.5%;
+    text-shadow:slategrey;
+}
+.waktusholat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana;
+    font-size: 60px;
+}
+.table {
+    border-collapse:collapse;
+    width: 100%;
+    height: 100%;
+}
+.th, td {
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+.td {
+    color: white;
+}tr:nth-child(even){background-color: #8bcb02}
+
+.isinya >li >img {
+    display: flex;
+    width: 60%;
+    height: 60%;
+}
+.isinya {
+    list-style-type: none;
+}
+.content >img {
+    width: 80%;
+    height: 80%;
+}
+.headerlogo2 >li >img {
+width: 50%;
+height: 50%;
+
+}
+.bungkusan {
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.bannersamping {
+    background-color: #f8f9f8;
+    max-width: 400px;
+    opacity: 90%;
+    border: #f8f9f8;
+    text-align: center;
+    font-family: "Gill Sans";
+    align-items: center;
+    align-content: center;
+
+}
